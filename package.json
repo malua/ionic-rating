@@ -25,7 +25,8 @@
   "scripts": {
     "build": "ng build ionic-rating",
     "test": "ng test ionic-rating",
-    "release": "cd dist/ionic-rating && npm publish --access public"
+    "release": "cd dist/ionic-rating && npm publish --access public",
+    "prepare": "ng build ionic-rating"
   },
   "private": true,
   "dependencies": {
